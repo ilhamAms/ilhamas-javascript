@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.card {
+
+border-radius: 10px ;
+overflow: hidden;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+.card-header {
+   
+    padding: 40px;
+    display: grid;
+    gap: 1rem;
+    background-color: #fff;
+   
+}
+ .blue-text{
+    color: rgb(36, 228, 228);
+    
+}
+.green-text {
+    color: rgb(175, 228, 96);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.text-content {
+    color: rgb(173, 175, 175);
+    font-size: 14px;
+    margin-top: .5rem;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    overflow: hidden;
+    
+}
+
+.card-content-left ,.card-content-right{
+   padding: 40px;
+
+}
+.card-content-left {
+    background: rgb(12, 165, 192);
+    overflow: hidden;
+}
+.card-content-right {
+    background-color: rgb(0, 204, 204);
+   
+}
